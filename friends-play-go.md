@@ -20,13 +20,16 @@ In this assignment, you will create a Web API that calculates the maximum number
    - Ensure that the total points can be divided evenly among the number of games played.
    - Validate the consistency of the scores.
 
+5. **Deadline**:
+   - Deadline is `29.5.24`.
+
 #### Example
 
 For a request to `/10/10/20`:
 - If valid, return:
   ```json
   {
-    "max_draws": 10
+    "max_draws": 20
   }
   ```
 - If not valid, return:
