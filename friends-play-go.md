@@ -1,7 +1,11 @@
 ### Assignment: Implement a Web API for Go Game Score Calculation
 
 #### Overview
-In this assignment, you will create a Web API that calculates the maximum number of draws that could have occurred in a series of Go games played by three friends, given their scores. The API will validate if the scores are consistent with a valid set of games and results. The results will be returned in JSON format.
+In this assignment, you will create a Web API that calculates the maximum number of draws that could have occurred in a series of Go games played by three friends, given their points. The API will validate if the points are consistent with a valid set of games and results. The results will be returned in JSON format. 
+
+A player is awarded two points for winning a game, one point is awarded to each player if the game ends in a draw and zero points if they loose the game.
+
+Go is an abstract strategy board game for two players in which the aim is to capture more territory than the opponent by fencing off empty space.
 
 #### Requirements
 
