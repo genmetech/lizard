@@ -120,6 +120,6 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 In the first example, no games were played at all, so no draws could occur either.
 
 For the second example, 
-one game occured between players 1 and 3,
-and one game occured between players 2 and 3
+one game could have occured between players 1 and 3,
+and one game could have occured between players 2 and 3
 to get a maximum of 2 draws.
