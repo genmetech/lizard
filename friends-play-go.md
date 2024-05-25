@@ -123,6 +123,3 @@ For the second example,
 one game occured between players 1 and 3,
 and one game occured between players 2 and 3
 to get a maximum of 2 draws.
-
-It's easy to see that there's no set of games achieving the scores in third example, so the answer for it is −1.
-
