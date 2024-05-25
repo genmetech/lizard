@@ -3,15 +3,17 @@
 #### Overview
 Go is an abstract strategy board game for two players in which the aim is to capture more territory than the opponent by fencing off empty space.
 
-In this assignment, you will create a Web API that calculates the maximum number of draws that could have occurred in a series of Go games played by three friends, given their points. The API will validate if the points are consistent with a valid set of games and results. The results will be returned in JSON format. 
+In this assignment, you will create a Web API that calculates the maximum number of draws that could have occurred in a series of Go games played by three friends, given their points. 
+
+The API will validate if the points are consistent with a valid set of games. The result will be returned in JSON format.
 
 A player is awarded two points for winning a game, one point is awarded to each player if the game ends in a draw and zero points if they loose the game.
 
 #### Requirements
 
 1. **Endpoint Specification**:
-   - Create a web endpoint `/:p1/:p2/:p3` where `p1`, `p2`, and `p3` are the scores of the three players.
-   - The scores are guaranteed to be in non-decreasing order (i.e., `p1 <= p2 <= p3`).
+   - Create a web endpoint `/:p1/:p2/:p3` where `p1`, `p2`, and `p3` are the points of the three players.
+   - The points are guaranteed to be in non-decreasing order (i.e., `p1 <= p2 <= p3`).
 
 2. **Input Constraints**:
    - The scores will be integers within the range `0` to `30`.
@@ -50,11 +52,12 @@ For a request to `/10/10/20`:
    - Ensure the environment is set up with all necessary dependencies.
 
 2. **Define the Endpoint**:
-   - Create the endpoint `/p1/p2/p3` that captures three integer parameters.
+   - Create the endpoint `/:p1/:p2/:p3` that captures three integer parameters.
    - Validate the inputs to ensure they meet the constraints.
 
 3. **Implement the Logic**:
    - Write a function to compute the maximum number of draws or determine if the scores are invalid.
+   - Note: This portion has the heaviest way in the assignment. 
 
 4. **Return the Response**:
    - Return the result in a JSON format as specified above.
