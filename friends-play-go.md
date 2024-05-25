@@ -105,7 +105,7 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 {
   "max_draws": -1
 }
-
+```
 ## Note
 In the first example, no games were played at all, so no draws could occur either.
 
