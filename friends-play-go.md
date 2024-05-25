@@ -67,3 +67,52 @@ For a request to `/10/10/20`:
 
 4. **Submission**:
    - Submit the GitHub repository link and ensure it is publicly accessible.
+
+
+Sure, here are some sample test cases for the Go Game Score Calculation project. These test cases should help verify that your implementation correctly handles various scenarios.
+
+### Test Case 1: Basic Valid Input
+**Input**: `/0/0/0`
+**Expected Output**:
+```json
+{
+  "max_draws": 0
+}
+```
+
+### Test Case 2: Simple Valid Input with Draws
+**Input**: `/1/1/2`
+**Expected Output**:
+```json
+{
+  "max_draws": 2
+}
+```
+
+### Test Case 3: Valid Input with Draws
+**Input**: `/3/4/5`
+**Expected Output**:
+```json
+{
+  "max_draws": 6
+}
+```
+
+### Test Case 4: No Possible Valid Game Configuration
+**Input**: `/6/6/6`
+**Expected Output**:
+```json
+{
+  "max_draws": -1
+}
+
+## Note
+In the first example, no games were played at all, so no draws could occur either.
+
+For the second example, 
+one game occured between players 1 and 3,
+and one game occured between players 2 and 3
+to get a maximum of 2 draws.
+
+It's easy to see that there's no set of games achieving the scores in third example, so the answer for it is −1.
+
