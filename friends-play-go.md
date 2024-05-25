@@ -70,8 +70,8 @@ For a request to `/10/10/20`:
 
 
 Sure, here are some sample test cases for the Go Game Score Calculation project. These test cases should help verify that your implementation correctly handles various scenarios.
-
-### Test Case 1: Basic Valid Input
+### Sample Test Cases
+#### Test Case 1: Basic Valid Input
 **Input**: `/0/0/0`
 **Expected Output**:
 ```json
@@ -80,7 +80,7 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 }
 ```
 
-### Test Case 2: Simple Valid Input with Draws
+#### Test Case 2: Simple Valid Input with Draws
 **Input**: `/1/1/2`
 **Expected Output**:
 ```json
@@ -89,7 +89,7 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 }
 ```
 
-### Test Case 3: Valid Input with Draws
+#### Test Case 3: Valid Input with Draws
 **Input**: `/3/4/5`
 **Expected Output**:
 ```json
@@ -98,7 +98,7 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 }
 ```
 
-### Test Case 4: No Possible Valid Game Configuration
+#### Test Case 4: No Possible Valid Game Configuration
 **Input**: `/6/6/6`
 **Expected Output**:
 ```json
