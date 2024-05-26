@@ -109,7 +109,7 @@ Sure, here are some sample test cases for the Go Game Score Calculation project.
 ```
 
 #### Test Case 4: No Possible Valid Game Configuration
-**Input**: `/6/6/6`
+**Input**: `/3/3/3`
 **Expected Output**:
 ```json
 {
